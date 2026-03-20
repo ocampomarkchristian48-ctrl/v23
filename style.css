@@ -130,3 +130,50 @@ cursor:pointer;
 .resultBox{margin-top:80px;}
 
 .hidden{display:none;}
+
+/* CENTER LOGIN BOX FIX */
+.card{
+width:500px;
+padding:60px;
+margin-top:0;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+text-align:center;
+}
+
+/* TITLE SA LOOB */
+.card h2{
+font-size:30px;
+margin-bottom:20px;
+}
+
+/* INPUT (NAME) */
+.card input{
+width:100%;
+padding:18px;
+font-size:18px;
+border-radius:12px;
+margin-bottom:20px;
+}
+
+/* BUTTON */
+.card button{
+width:100%;
+padding:15px;
+font-size:18px;
+border-radius:12px;
+background:#2196f3;
+}
+
+/* TITLE (MIND LOGIC) */
+.title{
+font-size:90px;
+margin-top:40px;
+}
+
+/* PARA DI MAG OVERLAP */
+body{
+overflow-x:hidden;
+}
